@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/var/www/html/full-cycle/erik/codebank'
+protoc --proto_path=infrastructure/grpc infrastructure/grpc/protofile/*.proto --go_out=infrastructure/ --go-grpc_out=infrastructure/
+make: Leaving directory '/var/www/html/full-cycle/erik/codebank'
+ 
